@@ -1,0 +1,13 @@
+.gradient-bg {
+  background: linear-gradient(320deg, #f27121, #e94057, #8a2387);
+}
+
+.glass1 {
+  /* From https://css.glass */
+  background: rgba(228, 216, 216, 0.14);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border: 1px solid rgba(228, 216, 216, 0.37);
+}

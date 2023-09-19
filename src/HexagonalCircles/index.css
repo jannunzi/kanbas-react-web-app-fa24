@@ -1,0 +1,111 @@
+@keyframes topologySlideIn {
+  from {
+    right: -300px;
+    opacity: 0;
+  }
+  to {
+    right: 0px;
+    opacity: 1;
+  }
+}
+@keyframes topologySlideOut {
+  from {
+    right: 0px;
+    opacity: 1;
+  }
+  to {
+    right: -300px;
+    opacity: 0;
+  }
+}
+
+@keyframes hexFadeIn {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 250px;
+  }
+}
+
+@keyframes hexFadeOut {
+  from {
+    left: 250px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    left: -300px;
+    opacity: 0;
+  }
+  to {
+    left: 0px;
+    opacity: 1;
+  }
+}
+@keyframes slideOutFromLeft {
+  from {
+    left: 0px;
+    opacity: 1;
+  }
+  to {
+    left: -300px;
+    opacity: 0;
+  }
+}
+@keyframes slideInFromRight {
+  from {
+    right: -300px;
+    opacity: 0;
+  }
+  to {
+    right: 0px;
+    opacity: 1;
+  }
+}
+@keyframes slideOutFromRight {
+  from {
+    right: 0px;
+    opacity: 1;
+  }
+  to {
+    right: -300px;
+    opacity: 0;
+  }
+}
+
+.slide-in-from-right {
+  animation: slideInFromRight 1s forwards;
+}
+
+.slide-out-from-right {
+  animation: slideOutFromRight 1s forwards;
+}
+
+.slide-in-from-left {
+  animation: slideInFromLeft 1s forwards;
+}
+
+.slide-out-from-left {
+  animation: slideOutFromLeft 1s forwards;
+}
+
+.hex-fade-in {
+  animation: hexFadeIn 1s forwards;
+}
+
+.hex-fade-out {
+  animation: hexFadeOut 1s forwards;
+}
+
+.topology-slide-in {
+  animation: topologySlideIn 1s forwards;
+}
+
+.topology-slide-out {
+  animation: topologySlideOut 1s forwards;
+}
